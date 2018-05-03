@@ -6,6 +6,7 @@
 #
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 
+
 fib1 = 0
 fib2 = 1
 sum = 0
@@ -15,4 +16,5 @@ while fib2 < 4_000_000:
     fib2 = temp + fib2
     if fib2 % 2 == 0:
         sum = sum + fib2
+
 print(sum)
